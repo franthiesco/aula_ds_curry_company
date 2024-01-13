@@ -1,0 +1,9 @@
+folium==0.15.0
+haversine==2.8.0
+numpy==1.26.3
+pandas==2.1.4
+Pillow==10.0.1
+Pillow==10.2.0
+plotly==5.18.0
+streamlit==1.27.2
+streamlit_folium==0.15.1
