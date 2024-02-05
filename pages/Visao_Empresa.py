@@ -1,3 +1,4 @@
+# Escritas em portugues nao possuem acentos devido estar utilizando teclado americano. 
 #Bibliotecas necessarias
 from haversine import haversine
 import plotly.express as px
@@ -25,7 +26,7 @@ def clean_code(data1):
     '''Funcao tem a responsabilidade de limpar o dataframe
     
          - Remocao dos Nan
-         - Mudana tipo de dados das colunas necessarias
+         - Mudanca tipo de dados das colunas necessarias
          - Remocao dos espacos
          - Formatacao das colunas datas
          - Limpeza coluna tempo, remocao (min)'''
@@ -150,9 +151,6 @@ def country_maps(data1):
                 
         folium_static(map, width=1024, height=600)
             
-       
-    
-
 #Limpando os dados
 
 data1 = clean_code(data1)
